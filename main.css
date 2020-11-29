@@ -1,0 +1,206 @@
+/*Common elements*/
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(./image/BlackWood\ S1N\ logo.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    padding: 0;
+    margin: 15px 0 15px 0;
+    text-shadow: 4px 4px #7b0000;
+}
+
+h2 {
+    font-size: 36px;
+    color: #9B0000;
+    padding: 0;
+    margin: 15px 0 15px 0;
+    -webkit-text-stroke: .4pt rgb(255, 208, 0);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Header*/ /*Nav Bars*/
+header {
+    padding: 25px;
+    background: linear-gradient(0deg, rgba(45,45,45,0.3), rgb(45, 45, 45,1));
+    text-transform: uppercase;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    border: solid black;
+    border-width: 4px;
+    color: black;
+    font-weight: bold;
+    background-color: darkred;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 5em;
+    text-decoration-line: none;
+}
+
+header ul li a:hover {
+    border: dotted;
+    border-width: thick;
+    opacity: 0.5;
+    color: ivory;
+}
+
+.account {
+    float: right;
+}
+
+.nav {
+    float: left;
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/*Sidebar Section*/
+#sidebar {
+    border: 30px solid transparent;
+    border-image: url(./image/8_bit_icons.png) 32% round;
+    float: left;
+    width: 20%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1px;
+    margin: 5px;
+    color: rgb(255, 160, 160);
+    font-size: 14px;
+}
+
+/*Categories*/
+#categories {
+    float: right;
+    width: 25%;
+    padding: 15px;
+    margin: 15px;
+}
+
+.catList {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catList ul {
+    padding: 0;
+}
+
+.catList ul li {
+    border: 5px solid white;
+    background: linear-gradient(135deg, darkred,black);
+    padding: 10px;
+}
+
+.catList ul li:hover {
+    border: dotted;
+    border-width: thick;
+    opacity: 0.5;
+    color: ivory;
+}
+
+.catList ul li a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Main Section*/
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding: 5px;
+}
+
+.panel {
+    float: left;
+    position: relative;
+    width: 38%;
+    margin: 15px 15px 0 15px;
+    padding: 0 15px 2px 15px;
+    border: 3px solid darkred;
+    color: rgb(255, 160, 160);
+    box-shadow: 1px 1px 10px rgb(214, 214, 214);
+    text-align: center;
+}
+
+.panel img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel p {
+    background: rgba(45,45,45,0.75);
+}
+
+.buyNow {
+    transition-duration: 0.6s;
+    color: #C64322;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid #C64322;
+}
+
+.buyNow:hover {
+    background-color: darkred;
+    color: yellow;
+}
+
+/*Footer*/
+.footer {
+    display: inline-block;
+    padding: 15px;
+    background: linear-gradient(180deg, rgba(204, 204, 204, 0.01), rgb(204, 204, 204));
+    width: 100%;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.footer ul li a {
+    color: darkred;
+    text-decoration: none;
+}
+
+.leftfoot {
+    float: left;
+    width: 25%;
+}
+
+.middlefoot {
+    text-align: center;
+    width: 50%;
+}
+
+.rightfoot {
+    float: right;
+    width: 25%;
+}
+
+.rightfoot ul li {
+    display: inline-block;
+}
